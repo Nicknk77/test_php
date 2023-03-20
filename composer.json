@@ -1,0 +1,25 @@
+{
+  "name": "nickspace/nick",
+  "autoload": {
+    "psr-4": {
+      "Nickspace\\Nick\\": "/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nickspace\\Nick\\UnitTests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nikolay Kutepov",
+      "email": "nkutepov@hotmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "phpunit tests --testdox --colors"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
